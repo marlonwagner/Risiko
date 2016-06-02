@@ -19,7 +19,7 @@ public class CUI {
 	}
 	
 	private SpielbrettVerwaltung sw;
-	//hi
+	
 	private BufferedReader br;
 	public void setConsoleLine(String s){
 		System.out.println(s);
