@@ -4,7 +4,7 @@ import ris.local.valueobjects.Karten;
 import ris.local.valueobjects.Kontinent;
 import ris.local.valueobjects.Laender;
 import ris.local.valueobjects.Spieler;
-import ris.local.valueobjects.Wuerfel;
+import ris.local.valueobjects.Wuerfel.Wuerfel;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -58,7 +58,8 @@ public class SpielbrettVerwaltung {
 
 
 
-
+		Wuerfel wuerfel = new Wuerfel(new int[0],0);
+		// Amount + WürfelA
 
 		Stack<Karten> auftragsKarten = new Stack<Karten>();
 		auftragsKarten.add(new Karten(Karten.Name.AUFTRAG1));

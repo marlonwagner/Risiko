@@ -47,7 +47,7 @@ public class Wuerfel {
 
 		}else{
 			System.out.println("Angreifer gewinnt");
-			for(int i = 0; i < sw.getKontinentArray().length ; i++){
+			for(int i = 0; i < sw.kontinentArray.length ; i++){
 				for(int j= 0; j < sw.kontinentArray[i].getLaenderArray().length; j++){
 
 
