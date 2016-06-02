@@ -110,7 +110,7 @@ public class CUI {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        }whilewhile (!input.equals("q") && !input.equals("quit")); // end of do-while
+        }while(!input.equals("q") && !input.equals("quit")); // end of do-while
         System.out.println("Spiel wurde Beendet");
     }
      
