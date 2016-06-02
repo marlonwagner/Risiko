@@ -64,6 +64,9 @@ public class CUI {
 			if(input.equals("alle4")){
 				sw.alle();
 			}
+			if(input.equals("bonus")){
+				sw.einheitenBonus(4);
+			}
 			if(input.equals("laenderZaehlen")){
 				int inputt = Integer.parseInt(br.readLine());
 				int laender = sw.countLaender(inputt);

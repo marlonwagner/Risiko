@@ -218,13 +218,19 @@ public class SpielbrettVerwaltung {
 		}
 	}
 	
-	public boolean einheitenBonus(int spieler){
-		for(int i = 0; i< kontinentArray.length; i++){
+	public int einheitenBonus(int spieler){
+		int i = 0;
+		int bonus = 0;
+		while(i< kontinentArray.length){
 			for(int j = 0; j < kontinentArray[i].getLaenderArray().length;j++){
-				if(kontinentArray[i].getLaenderArray()[j].getBelegt();
-		
+				if(kontinentArray[i].getLaenderArray()[j].getBelegt() != spieler){
+					i++;
+				}	
 			}
-		}
+			bonus = kontinentArray[i].getBonus() + bonus;
+			i++;
+		}System.out.println(bonus); 
+		return bonus;
 	}
 
 
