@@ -51,10 +51,11 @@ public class CUI {
     }
      
     public void run(){
-        do{
+        String input = "";
+    	do{
         System.out.println("aktion:");
         try {
-            String input = br.readLine();
+            input = br.readLine();
             if(input.equals("einheitenVerteilen")){
                 sw.einheitenVerteilen();
                  
@@ -109,7 +110,8 @@ public class CUI {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        }while(true);
+        }whilewhile (!input.equals("q") && !input.equals("quit")); // end of do-while
+        System.out.println("Spiel wurde Beendet");
     }
      
     public CUI() {
