@@ -31,8 +31,8 @@ public class Wuerfel {
 	public void setZufallszahl(int zufallszahl) {
 		this.zufallszahl = zufallszahl;
 	}
-
-	public int[] einAeinV(int spielerNr,int spielerNr2,String land1){
+	// Wenn ein Spieler angreifer mit 1 Einheiten auf 1ne Verteidigende Einheiten
+	/*public int[] einAeinV(int spielerNr,int spielerNr2,String land1,String land2){
 		wuerfelArray = new int[2];
 
 		for(int i = 0; i < wuerfelArray.length ; i ++){
@@ -43,16 +43,25 @@ public class Wuerfel {
 		}
 		if ( wuerfelArray[0] <= wuerfelArray[1]){
 			System.out.println("Verteidiger gewinnt");
-			sw.getSpielerArray()[spielerNr-1].setEinheiten(-1);
+			for(int i = 0; i < sw.getKontinentArray().length; i++){
+				for(int j= 0; j < sw.getKontinentArray()[i].getLaenderArray().length; j++){
+
+					// Setzt die ID des Angeriffenen Landes um ( So das sie die des Siegers bekommt )
+					if(land1.equals(sw.getKontinentArray()[i].getLaenderArray()[j].getName())){
+						sw.getKontinentArray()[i].getLaenderArray()[j].setEinheiten(-1);
+					}
+				}
+			}
 
 		}else{
 			System.out.println("Angreifer gewinnt");
-			for(int i = 0; i < sw.getKontinentArray().length ; i++){
-				for(int j= 0; j < sw.kontinentArray[i].getLaenderArray().length; j++){
+					
+			for(int i = 0; i < sw.getKontinentArray().length; i++){
+				for(int j= 0; j < sw.getKontinentArray()[i].getLaenderArray().length; j++){
 
-
-					if(land1.equals(sw.kontinentArray[i].getLaenderArray()[j].getName())){
-						sw.kontinentArray[i].getLaenderArray()[j].setId(spielerNr);
+					// Setzt die ID des Angeriffenen Landes um ( So das sie die des Siegers bekommt )
+					if(land2.equals(sw.getKontinentArray()[i].getLaenderArray()[j].getName())){
+						sw.getKontinentArray()[i].getLaenderArray()[j].setId(spielerNr);
 					}
 				}
 			}
@@ -60,7 +69,7 @@ public class Wuerfel {
 		}
 		return wuerfelArray;
 
-	}
+	}*/
 
 	public int[] einAzweiV(){
 		wuerfelArray = new int[3];
