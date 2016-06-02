@@ -1,6 +1,5 @@
 INDEX VERSION 1.127+C:\Users\Marlon\Documents\Schuldateien\Programmieren\Projekt\Risiko\.metadata\.plugins\org.eclipse.jdt.core
 4078855296.index
-1614045840.index
 2442888519.index
 1851955243.index
 2334050384.index
