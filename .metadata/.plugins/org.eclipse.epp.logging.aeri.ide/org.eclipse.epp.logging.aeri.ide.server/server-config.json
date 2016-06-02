@@ -2,7 +2,11 @@
   "version": "v1",
   "title": "Eclipse.org Error Reporting Server",
   "description": "Automated Error Reporting for eclipse.org",
+<<<<<<< HEAD
   "timestamp": 1464870051249,
+=======
+  "timestamp": 1464870087927,
+>>>>>>> 9f4f92bc3b9b6da2b6675a0d2ca524511ba159fc
   "ttl": 20160,
   "helpUrl": "https://wiki.eclipse.org/EPP/Logging",
   "feedbackUrl": "https://docs.google.com/a/codetrails.com/forms/d/1wd9AzydLv_TMa7ZBXHO7zQIhZjZCJRNMed-6J4fVNsc/viewform",
@@ -50,5 +54,9 @@
     "org.eclipse.core.filesystem::Could not delete*",
     "org.eclipse.pde.core::The current target platform contains errors*"
   ],
+<<<<<<< HEAD
   "problemsZipLastDownloadTimestamp": 1464870860545
+=======
+  "problemsZipLastDownloadTimestamp": 1464870400366
+>>>>>>> 9f4f92bc3b9b6da2b6675a0d2ca524511ba159fc
 }

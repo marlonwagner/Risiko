@@ -18,4 +18,9 @@
 			<item value="org.eclipse.egit.ui.internal.clone.gitclonecategory"/>
 		</list>
 	</section>
+<<<<<<< HEAD
+=======
+	<section name="ZipFileImportWizard">
+	</section>
+>>>>>>> 9f4f92bc3b9b6da2b6675a0d2ca524511ba159fc
 </section>
